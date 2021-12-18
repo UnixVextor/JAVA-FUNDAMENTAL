@@ -22,4 +22,6 @@ public class collect {
         System.out.println("Your Favorite number is "+FavNum);
     }
 
+    
+
 }

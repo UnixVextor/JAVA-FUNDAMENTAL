@@ -37,5 +37,32 @@ public class OOP {
         // super Access
         inher.test();
 
+
+        // Abstract class
+        Abstraction2 ab = new Abstraction2("BMW",2012,4);
+        ab.go();
+
+        /* Access modifire 
+            no modifire = can access in the same package
+            public  = everybody can access 
+            private = can access in the class
+            protected = can acess in the same package and subclass
+        */
+
+        /*
+            Encapsulation = attribute of a class will be hidden or private 
+                            can be accessed only through methods (getters & setters)
+                            You should make attribute private if you don't have reason to make public/proitected
+         */
+        System.out.println(ab.getyears());
+        ab.setYears(1985);
+        System.out.println(ab.getyears());
+
+        // copy object
+        Abstraction2 ab2 = new Abstraction2("tesla", 2015, 23);
+        Abstraction2 ab3 = new Abstraction2("NNN", 2222, 223);
+        //ab3 = ab2;  // same memory adderess
+        ab2.copy(ab3);
+        System.out.println(ab2.getmodel());
     }
 }
