@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "Object & class",
+        "Basic Syntax",
+        "Datatype",
+        "Access modifiler",
+        "src",
+        "."
+    ]
+}
